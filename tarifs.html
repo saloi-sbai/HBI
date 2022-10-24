@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tarifs.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet" -->
+
+    <title>tarifs</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><img src="/img/unnamed.png" alt="" /></li>
+        <li class="item"><a href="./index.html">Acceuil</a></li>
+        <li class="item"><a href="./depannage.html">Dépannages</a></li>
+        <li class="item"><a href="./services.html">Services</a></li>
+        <li class="item"><a href="./tarifs.html">Tarifs</a></li>
+        <li class="item"><a href="./contact.html">Contact</a></li>
+        <li class="toggle" onclick="toggleActive()">
+          <span class="burger"></span>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="services">
+      <div class="section-title">
+        <h1>Tarifs</h1>
+      </div>
+      <div class="services-title-formule">
+        <h3>Les formules</h3>
+      </div>
+
+      <div class="section-center clearfix">
+        <!-- les cards -->
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="/img/images (1).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>Remplacement de disque dur</h4>
+            <p>
+              La solution pour redonner une seconde jeunesse à un ordinateur
+              (Windows ou Mac os) devenu trop lent. Elle permet dans certains
+              cas d'éviter l'achat d'un nouvel ordinateur. Le remplacement du
+              disque dur (disque dur SSD de 480 Gb neuf garantie 24 mois) La
+              réinstallation du système d'exploitation Le transfert des données
+              si l'état de l'ancien disque le permet Le retour et la
+              configuration de l'ordinateur à votre domicile.
+            </p>
+            <h3>240 €</h3>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="/img/images (5).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>Mise en route de nouvelle équipement</h4>
+            <p>
+              Cette formule vous garantie la mise en route en tout simplicité de
+              votre nouvel équipement, Diagnostic gratuit à domicile (~15 mn)
+              pour vérifier la faisabilité, Configuration et mise en route à
+              domicile.
+            </p>
+            <h3>75 €</h3>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="/img/images (7).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>Réinstallation de systeme Windows</h4>
+            <p>
+              Dans certains cas, il devient necessaire de ré-installer
+              complement Windows (version 10 au minium) pour repartir sur une
+              base seine, Diagnostic gratuit à domicile (~15 mn) pour vérifier
+              la faisabilité. Configuration à domicile.
+            </p>
+            <h3>75 €</h3>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="/img/images (3).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>Réinstallation de Mac os</h4>
+            <p>
+              Dans certains cas, il devient necessaire de réinstaller le systeme
+              d'exploitation ( la dernière version supportée par votre
+              ordinateur) pour repartir sur une base seine, Diagnostic gratuit à
+              domicile (~15 mn) pour vérifier la faisabilité. Configuration à
+              domicile.
+            </p>
+            <h3>75 €</h3>
+          </div>
+        </article>
+      </div>
+
+      <!-- tarifs horaires -->
+      <div class="title-tarif">
+        <h1>Les tarifs horaires</h1>
+      </div>
+
+      <article class="service-card">
+        <div class="service-img-container">
+          <img src="/img/images (1).jpg" class="service-img" alt="" />
+        </div>
+        <div class="service-info">
+          <h4>1 heure de dépannage PC Windows</h4>
+          <p>
+            Un diagnostic gratuit permet de se faire une idée de la nature de la
+            panne et de la durée d'intervention pour établir un devis,
+            Diagnostic gratuit à domicile (~15 mn), Validation d'un devis avant
+            toute intervention, Intervention en horaire décalé de 18h30 à 22h00.
+          </p>
+          <h3>60 €</h3>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-img-container">
+          <img src="/img/images (1).jpg" class="service-img" alt="" />
+        </div>
+        <div class="service-info">
+          <h4>1 heure de dépannage PC Apple</h4>
+          <p>
+            Un diagnostic gratuit permet de se faire une idée de la nature de la
+            panne et de la durée d'intervention pour établir un devis.Diagnostic
+            gratuit à domicile (~15 mn). Validation d'un devis avant toute
+            intervention. Intervention en horaire décalé de 18h30 à 22h00.
+          </p>
+          <h3>60 €</h3>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>©All Rights Reserved. www.myhbi.fr - Siret n° : 79759284700017</p>
+      </div>
+    </footer>
+
+    <script src="./toggle.js"></script>
+  </body>
+</html>

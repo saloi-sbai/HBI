@@ -147,9 +147,9 @@ img {
 .hero p {
   font-size: 30px;
   color: white;
-  animation-duration: 3s;
-  animation-name: glissement_inverse;
-  animation-iteration-count: 1;
+  /* animation-duration: 3s; */
+  /* animation-name: glissement_inverse; */
+  /* animation-iteration-count: 1; */
   margin-top: 20px;
   width: 60%;
 }
