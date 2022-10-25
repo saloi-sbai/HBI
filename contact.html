@@ -46,17 +46,20 @@
       </div>
 
       <!-- formulaire -->
+      <!-- <?php
+      <p>message envoyé</p>
+       ?> -->
 
       <div class="contact-form">
         <h3>Contactez-nous</h3>
-        <form action="">
+        <form action="./contact.php" method="post">
           <div class="form-group">
             <input
               type="text"
               class="form-control"
-              name="name"
+              name="nom"
               id="name"
-              placeholder="name"
+              placeholder="Nom" required
             />
             <br />
             <input
@@ -64,18 +67,17 @@
               class="form-control"
               name="email"
               id="email"
-              placeholder="email"
+              placeholder="email" required
             />
             <textarea
               class="form-control"
               name="message"
               id="message"
-              cols="30"
-              rows="10"
-              placeholder="message"
+              cols="30"rows="10"
+              placeholder="message" required
             ></textarea>
           </div>
-          <button type="submit" class="submit-btn">Envoyer</button>
+          <button name="envoyer" type="submit" class="submit-btn">Envoyer</button>
         </form>
       </div>
     </section>

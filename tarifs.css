@@ -2,6 +2,8 @@
   text-align: center;
   margin-top: 4rem;
   padding: 0 1rem;
+  color: #ee6c4d;
+  font-size: 2rem;
 }
 
 .section-center {
@@ -13,6 +15,8 @@
   text-align: center;
   margin-top: 1rem;
   padding: 0 1rem;
+  color: #343a40;
+  font-size: 1.5rem;
 }
 .service-card {
   margin: 2rem 0;
@@ -42,6 +46,7 @@
 .service-info {
   text-align: center;
   padding: 3rem 1rem 2.5rem 1rem;
+  color:#343a40 ;
 }
 .service-info p {
   max-width: 20rem;
@@ -56,6 +61,48 @@
   clear: both;
   display: table;
 }
+
+
+/* les tarifs horaires */
+
+.title-tarif {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  color: #343a40;
+  font-size: 1.5rem;
+}
+/* .service-card {
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  background: #f1f5f8;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+} */
+/* .service-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+} */
+/* .service-img-container {
+  position: relative;
+  object-fit: cover;
+} */
+/* .service-img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+} */
+/* .service-info {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem 1rem;
+} */
+/* .service-info p {
+  max-width: 20rem;
+  color: #617d98;
+  margin: 0 auto;
+} */
+  
 
 /* footer */
 
