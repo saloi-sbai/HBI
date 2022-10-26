@@ -12,16 +12,16 @@ if (isset($_POST['envoyer'])) {
     ) {
         // envoyé l'email
         //mon adresse mail (le destinataire)    
-        $to = "saloi.benoumaizina@free.fr";
+        $to = "saloi.benoum@gmail.com";
         // objet du mail
         $subject = "vous avez reçu un message de : " . $email;
 
         $message = "
-<p>vous avez reçu un message de <strong> " . $email . "</strong></p>
-<p><strong>Nom :</strong> " . $nom . "</p>
-<p><strong>Email :</strong> " . $email . "</p>
-<p><strong>Message :</strong> " . $message . "</p>
-";
+                <p>vous avez reçu un message de <strong> " . $email . "</strong></p>
+                <p><strong>Nom :</strong> " . $nom . "</p>
+                <p><strong>Email :</strong> " . $email . "</p>
+                <p><strong>Message :</strong> " . $message . "</p>
+                ";
 
 
         // Always set content-type when sending HTML email
@@ -38,7 +38,7 @@ if (isset($_POST['envoyer'])) {
         if ($envoyer) {
             $_SESSION['succes_message'] = "message envoyé";
             // redirection vers la meme page
-            header("location:contact.php");
+            header("location:contact.html");
         } else {
             $info = "message non envoyé";
         }
