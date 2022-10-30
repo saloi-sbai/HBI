@@ -18,9 +18,10 @@ body {
   text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  font-family: 'Handlee', cursive;
-  color: #495057;
+  /* font-family: 'Handlee', cursive; */
+  color: #ee6c4d;
   margin-top: 30px;
+  font-size: 2rem;
 }
 .blogs-center {
   width: 90vw;

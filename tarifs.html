@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="tarifs.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./tarifs.css" />
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,12 +17,12 @@
   <body>
     <nav>
       <ul class="menu">
-        <li class="logo"><img src="/img/unnamed.png" alt="" /></li>
+        <li class="logo"><img src="./img/unnamed.png" alt="" /></li>
         <li class="item"><a href="./index.html">Acceuil</a></li>
         <li class="item"><a href="./depannage.html">Dépannages</a></li>
         <li class="item"><a href="./services.html">Services</a></li>
         <li class="item"><a href="./tarifs.html">Tarifs</a></li>
-        <li class="item"><a href="./contact.html">Contact</a></li>
+        <li class="item"><a href="./contact-form.php">Contact</a></li>
         <li class="toggle" onclick="toggleActive()">
           <span class="burger"></span>
         </li>
@@ -41,7 +41,7 @@
         <!-- les cards -->
         <article class="service-card">
           <div class="service-img-container">
-            <img src="/img/images (1).jpg" class="service-img" alt="" />
+            <img src="./img/images (1).jpg" class="service-img" alt="" />
           </div>
           <div class="service-info">
             <h4>Remplacement de disque dur</h4>
@@ -60,7 +60,7 @@
 
         <article class="service-card">
           <div class="service-img-container">
-            <img src="/img/images (5).jpg" class="service-img" alt="" />
+            <img src="./img/images (5).jpg" class="service-img" alt="" />
           </div>
           <div class="service-info">
             <h4>Mise en route de nouvelle équipement</h4>
@@ -76,7 +76,7 @@
 
         <article class="service-card">
           <div class="service-img-container">
-            <img src="/img/images (7).jpg" class="service-img" alt="" />
+            <img src="./img/images (7).jpg" class="service-img" alt="" />
           </div>
           <div class="service-info">
             <h4>Réinstallation de systeme Windows</h4>
@@ -92,7 +92,7 @@
 
         <article class="service-card">
           <div class="service-img-container">
-            <img src="/img/images (3).jpg" class="service-img" alt="" />
+            <img src="./img/images (3).jpg" class="service-img" alt="" />
           </div>
           <div class="service-info">
             <h4>Réinstallation de Mac os</h4>
@@ -112,38 +112,74 @@
       <div class="title-tarif">
         <h1>Les tarifs horaires</h1>
       </div>
+      <div class="section-center">
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="./img/images (1).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>1 heure de dépannage PC Windows</h4>
+            <p>
+              Un diagnostic gratuit permet de se faire une idée de la nature de
+              la panne et de la durée d'intervention pour établir un devis,
+              Diagnostic gratuit à domicile (~15 mn), Validation d'un devis
+              avant toute intervention, Intervention en horaire décalé de 18h30
+              à 22h00.
+            </p>
+            <h3>60 €</h3>
+          </div>
+        </article>
 
-      <article class="service-card">
-        <div class="service-img-container">
-          <img src="/img/images (1).jpg" class="service-img" alt="" />
-        </div>
-        <div class="service-info">
-          <h4>1 heure de dépannage PC Windows</h4>
-          <p>
-            Un diagnostic gratuit permet de se faire une idée de la nature de la
-            panne et de la durée d'intervention pour établir un devis,
-            Diagnostic gratuit à domicile (~15 mn), Validation d'un devis avant
-            toute intervention, Intervention en horaire décalé de 18h30 à 22h00.
-          </p>
-          <h3>60 €</h3>
-        </div>
-      </article>
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="./img/images (1).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>1 heure de dépannage PC Apple</h4>
+            <p>
+              Un diagnostic gratuit permet de se faire une idée de la nature de
+              la panne et de la durée d'intervention pour établir un
+              devis.Diagnostic gratuit à domicile (~15 mn). Validation d'un
+              devis avant toute intervention. Intervention en horaire décalé de
+              18h30 à 22h00.
+            </p>
+            <h3>60 €</h3>
+          </div>
+        </article>
 
-      <article class="service-card">
-        <div class="service-img-container">
-          <img src="/img/images (1).jpg" class="service-img" alt="" />
-        </div>
-        <div class="service-info">
-          <h4>1 heure de dépannage PC Apple</h4>
-          <p>
-            Un diagnostic gratuit permet de se faire une idée de la nature de la
-            panne et de la durée d'intervention pour établir un devis.Diagnostic
-            gratuit à domicile (~15 mn). Validation d'un devis avant toute
-            intervention. Intervention en horaire décalé de 18h30 à 22h00.
-          </p>
-          <h3>60 €</h3>
-        </div>
-      </article>
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="./img/images (1).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>1 heure de formation</h4>
+            <p>
+              Le sujet de la formation sera définit au moment de la prise de
+              rendez vous et afin d'accorder du temps à chacun, nous limitons le
+              nombre de participants à 5 personnes par seance, Formation
+              personnalisée en fonction de votre niveau, Sujets adaptés à vos
+              besoins, Formation dispensée à votre domicile.
+            </p>
+            <h3>40 €</h3>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-img-container">
+            <img src="./img/images (1).jpg" class="service-img" alt="" />
+          </div>
+          <div class="service-info">
+            <h4>1 heure de conseil</h4>
+            <p>
+              Cela inclut le temps de déplacement si nous devons vous
+              accompagner en magasin pour vous aider dans le choix de
+              l'équipement. Accompagnement en magasin et Conseils personnalisés
+              en fonction de vos besoins.
+            </p>
+            <h3>40 €</h3>
+          </div>
+        </article>
+      </div>
     </section>
 
     <footer>
