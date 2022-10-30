@@ -44,6 +44,7 @@ body {
 .service-info {
   text-align: center;
   padding: 3rem 1rem 2.5rem 1rem;
+<<<<<<< HEAD
   color: #343a40;
 }
 .service-info p {
@@ -57,7 +58,23 @@ body {
   content: "";
   clear: both;
   display: table;
+=======
+  color:#343a40 ;
+>>>>>>> 1d9e613ef84a96f144f981d329ade584235d656f
 }
+.service-info p {
+  max-width: 20rem;
+  color: #617d98;
+  margin: 0 auto;
+}
+/* clearfix */
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 /* footer */
 
