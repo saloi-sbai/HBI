@@ -24,6 +24,10 @@
   background: #f1f5f8;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s linear;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
 }
 .service-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -31,27 +35,40 @@
 }
 
 .service-img-container {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   object-fit: cover;
+  height: 160px;
+  width: 300px;
 }
 
 .service-img {
   height: 100%;
   width: 100%;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
 }
 
 /*detail service infos*/
 .service-info {
   text-align: center;
   padding: 3rem 1rem 2.5rem 1rem;
-  color:#343a40 ;
+  color: #343a40;
 }
+
+.service-info h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .service-info p {
   max-width: 20rem;
+  top: auto;
   color: #617d98;
   margin: 0 auto;
+}
+
+.service-info h3 {
+  bottom: 10px;
 }
 
 /* clearfix */
@@ -61,7 +78,6 @@
   clear: both;
   display: table;
 }
-
 
 /* les tarifs horaires */
 
