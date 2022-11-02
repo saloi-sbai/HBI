@@ -75,25 +75,24 @@ textarea {
   background-color: #e76f51;
   border: none;
 }
-/* mobile */
-@media screen and (max-width: 480px) {
+
+
+@media screen and (max-width: 800px) {
   .contact {
-    display: flex;
     flex-direction: column;
+    height: auto;
     justify-content: center;
-    align-items: center;
-    height: calc(100vh - (60px + 70px));
+    
   }
   .contact-info {
-    margin-top: 90px;
+    height:auto;
   }
-  .contact-item {
-    margin: 0;
-    /* padding: 0px; */
-    font-size: smaller;
+  .contact-form {
+    height:auto;
+    padding-bottom: 65px;
   }
+  
 }
-/* tablete */
 
 /* footer */
 

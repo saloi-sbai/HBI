@@ -24,10 +24,7 @@
   background: #f1f5f8;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s linear;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
+  
 }
 .service-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -65,6 +62,7 @@
   top: auto;
   color: #617d98;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .service-info h3 {
@@ -88,6 +86,24 @@
   color: #343a40;
   font-size: 1.5rem;
 }
+
+/* pour mobil */
+
+@media screen and (max-width: 600px) {
+  .section-center {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* pour tablets */
+@media screen and (max-width: 1200px) {
+  .section-center {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 
 /* footer */
 
