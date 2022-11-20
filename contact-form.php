@@ -2,7 +2,7 @@
     session_start();
     ?>
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="fr">
 
     <head>
       <meta charset="UTF-8" />
@@ -17,16 +17,18 @@
 
     <body>
       <nav>
+        <div class="logo">
+          <img src="./img/unnamed.png" alt="logo-hbi" />
+        </div>
         <ul class="menu">
-          <li class="logo"><img src="./img/unnamed.png" alt="" /></li>
           <li class="item"><a href="./index.html">Acceuil</a></li>
           <li class="item"><a href="./depannage.html">Dépannages</a></li>
           <li class="item"><a href="./tarifs.html">Tarifs</a></li>
-          <li class="item"><a href="./contact-form.php">Contact</a></li>
-          <li class="toggle" onclick="toggleActive()">
-            <span class="burger"></span>
-          </li>
+          <li class="item"><a class="active" href="./contact-form.php">Contact</a></li>
         </ul>
+        <div class="toggle">
+          <span class="burger"></span>
+        </div>
       </nav>
 
       <section class="contact">
