@@ -19,7 +19,7 @@
   font-size: 1.5rem;
 }
 .service-card {
-  margin: 2rem 0;
+  margin: 2rem auto;
   border-radius: 0.5rem;
   background: #f1f5f8;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -43,7 +43,13 @@
 .service-img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  /* display: grid;
+  grid-template-columns: auto 1fr auto; */
 }
+/* img {
+  display: block;
+} */
 
 /*detail service infos*/
 .service-info {
@@ -79,20 +85,93 @@
 
 /* les tarifs horaires */
 
-.title-tarif {
+/* .title-tarif {
   text-align: center;
   margin-top: 1rem;
   padding: 0 1rem;
   color: #343a40;
   font-size: 1.5rem;
+} */
+
+
+/* new style */
+/* .title-underline {
+  background-color:#ee6c4d;
+  width: 50rem;
+  height: 0.25rem;
+  margin: 0 auto;
+} */
+.title {
+   text-align: center;
+  font-size: large;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #ee6c4d;
+}
+.container {
+  width: 100%;
+  height: 50vh;
+  background-color: #edede9;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+.depannage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 3rem 1rem 2.5rem 1rem; */
+  letter-spacing: 1px;
+  text-align: justify;
+  /* padding: 9rem 5rem 2.5rem 1rem; */
+  width: 40%;
+}
+.depannage h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #355070;
+}
+.depannage p {
+  margin: 0 auto;
+  color: #355070;
+}
+.formation {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 9rem 5rem 2.5rem 1rem; */
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 40%;
+}
+.formation h3 {
+  font-size: 25px;
+  text-transform:capitalize;
+  margin-bottom: 10px;
+  color: #355070;
+}
+.formation p {
+  margin: 0 auto;
+  color: #355070;
+}
+.price {
+  text-align: center;
 }
 
 /* pour mobil */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .section-center {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
   }
 }
 
@@ -111,8 +190,8 @@
   width: 100%;
   height: 60px;
   background-color: #355070;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed; */
+  /* bottom: 0; */
 }
 .footer p {
   color: white;
