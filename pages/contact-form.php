@@ -8,8 +8,8 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./styles.css" />
-      <link rel="stylesheet" href="./contact.css" />
+      <link rel="stylesheet" href="../css/styles.css" />
+      <link rel="stylesheet" href="../css/contact.css" />
       <script src="https://kit.fontawesome.com/f748fcced4.js" crossorigin="anonymous"></script>
 
       <title>contact</title>
@@ -18,10 +18,10 @@
     <body>
       <nav>
         <div class="logo">
-          <img src="./img/unnamed.png" alt="logo-hbi" />
+          <img src="../img/unnamed.png" alt="logo-hbi" />
         </div>
         <ul class="menu">
-          <li class="item"><a href="./index.html">Acceuil</a></li>
+          <li class="item"><a href="../index.html">Acceuil</a></li>
           <li class="item"><a href="./depannage.html">Dépannages</a></li>
           <li class="item"><a href="./tarifs.html">Tarifs</a></li>
           <li class="item"><a class="active" href="./contact-form.php">Contact</a></li>

@@ -123,6 +123,10 @@ body {
     display:flex;
     flex-direction: column;
   }
+  .formations {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
   

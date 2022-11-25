@@ -18,6 +18,9 @@
   color: #343a40;
   font-size: 1.5rem;
 }
+.services-title-formule h3 {
+  color: #355070;
+}
 .service-card {
   margin: 2rem auto;
   border-radius: 0.5rem;
@@ -76,12 +79,12 @@
 }
 
 /* clearfix */
-.clearfix::after,
+/* .clearfix::after,
 .clearfix::before {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
 /* les tarifs horaires */
 
@@ -109,7 +112,7 @@
   margin-top: 40px;
   color: #ee6c4d;
 }
-.container {
+.mo-container {
   width: 100%;
   height: 50vh;
   background-color: #edede9;
@@ -138,6 +141,7 @@
 .depannage p {
   margin: 0 auto;
   color: #355070;
+  line-height: 1.5;
 }
 .formation {
   text-align: center;
@@ -159,6 +163,7 @@
 .formation p {
   margin: 0 auto;
   color: #355070;
+  line-height: 1.5;
 }
 .price {
   text-align: center;
@@ -173,6 +178,7 @@
     justify-content: center;
     /* flex-direction: column; */
   }
+  
 }
 
 /* pour tablets */
@@ -181,7 +187,20 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .mo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .depannage {
+    width: 80%;
+  }
+  .formation {
+    width: 80%;
+  }
 }
+
 
 
 /* footer */
