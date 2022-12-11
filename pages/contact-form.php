@@ -88,7 +88,7 @@
 
       <footer>
         <div class="footer">
-          <p>©All Rights Reserved. www.myhbi.fr - Siret n° : 79759284700017</p>
+          <p>&copy;All Rights Reserved. www.myhbi.fr - Siret n° : 79759284700017</p>
         </div>
       </footer>
 

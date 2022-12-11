@@ -9,6 +9,7 @@
 .section-center {
   display: flex;
   justify-content: space-around;
+  gap: 1rem;
 }
 
 .services-title-formule {
@@ -27,7 +28,6 @@
   background: #f1f5f8;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s linear;
-  
 }
 .service-card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -47,12 +47,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  /* display: grid;
-  grid-template-columns: auto 1fr auto; */
 }
-/* img {
-  display: block;
-} */
 
 /*detail service infos*/
 .service-info {
@@ -77,143 +72,97 @@
 .service-info h3 {
   bottom: 10px;
 }
-
-/* clearfix */
-/* .clearfix::after,
-.clearfix::before {
-  content: "";
-  clear: both;
-  display: table;
-} */
-
-/* les tarifs horaires */
-
-/* .title-tarif {
-  text-align: center;
-  margin-top: 1rem;
-  padding: 0 1rem;
-  color: #343a40;
-  font-size: 1.5rem;
-} */
-
-
-/* new style */
-/* .title-underline {
-  background-color:#ee6c4d;
-  width: 50rem;
-  height: 0.25rem;
-  margin: 0 auto;
-} */
-.title {
-   text-align: center;
-  font-size: large;
-  font-size: 30px;
-  margin-bottom: 40px;
-  margin-top: 40px;
+.price {
+  margin-bottom: 1rem;
   color: #ee6c4d;
 }
+
+/* tarifs horaires  */
+
 .mo-container {
-  width: 100%;
-  height: 50vh;
-  background-color: #edede9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-bottom: 1rem;
+  color: #ee6c4d;
+  font-size: 2rem;
+}
+.mo {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 90px;
-}
-.depannage {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  /* padding: 3rem 1rem 2.5rem 1rem; */
-  letter-spacing: 1px;
-  text-align: justify;
-  /* padding: 9rem 5rem 2.5rem 1rem; */
+  background-color: #f1f5f8;
+  margin-bottom: 2rem;
+}
+.prestations {
+  padding: 0 10px;
+  text-align: center;
   width: 40%;
 }
-.depannage h3 {
-  font-size: 25px;
-  margin-bottom: 10px;
-  text-transform: capitalize;
-  color: #355070;
+.prest-title {
+  margin: 2rem 0 1rem 0;
 }
-.depannage p {
-  margin: 0 auto;
-  color: #355070;
-  line-height: 1.5;
-}
-.formation {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* padding: 9rem 5rem 2.5rem 1rem; */
-  letter-spacing: 1px;
+.prest-description {
   text-align: justify;
-  width: 40%;
+  margin-bottom: 1rem;
 }
-.formation h3 {
-  font-size: 25px;
-  text-transform:capitalize;
-  margin-bottom: 10px;
-  color: #355070;
-}
-.formation p {
-  margin: 0 auto;
-  color: #355070;
-  line-height: 1.5;
-}
-.price {
-  text-align: center;
-}
-
-/* pour mobil */
-
-@media screen and (max-width: 1200px) {
-  .section-center {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* flex-direction: column; */
-  }
-  
-}
-
-/* pour tablets */
-@media screen and (max-width: 1200px) {
-  .section-center {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .mo-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .depannage {
-    width: 80%;
-  }
-  .formation {
-    width: 80%;
-  }
-}
-
-
 
 /* footer */
-
 .footer {
   width: 100%;
   height: 60px;
   background-color: #355070;
-  /* position: fixed; */
-  /* bottom: 0; */
 }
 .footer p {
   color: white;
   text-align: center;
   padding-top: 20px;
+}
+
+/* mode tablets */
+
+@media screen and (min-width: 713px) and (max-width: 1000px) {
+  
+  .section-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-card {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .service-info h3 {
+    margin-top: 1rem;
+  }
+  .price {
+    margin-top: 1rem;
+  }
+}
+
+/* mode mobile */
+@media only screen and (max-width: 712px) {
+  .section-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .mo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .prestations {
+    width: 100%;
+  }
 }
