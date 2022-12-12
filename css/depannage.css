@@ -69,25 +69,12 @@ body {
   text-align: justify;
    width: 80%;
 }
-/* clearfix */
-/* .clearfix::after,
-.clearfix::before {
-  content: "";
-  clear: both;
-  display: table;
-} */
+
 .service-info p {
   max-width: 20rem;
   color: #617d98;
   margin: 0 auto;
 }
-/* clearfix */
-/* .clearfix::after,
-.clearfix::before {
-  content: "";
-  clear: both;
-  display: table;
-} */
 
 .formations {
   display: flex;
@@ -117,7 +104,6 @@ body {
 }
 
 
-
 @media screen and (max-width: 600px) {
   .section-center {
     display:flex;
@@ -126,6 +112,12 @@ body {
   .formations {
     display: flex;
     flex-direction: column;
+  }
+  .descriptions {
+    width: 80%;
+  }
+  .descriptions h4 {
+    text-align: center;
   }
 
 }

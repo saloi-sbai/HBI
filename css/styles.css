@@ -138,9 +138,7 @@ a:hover {
   line-height: 1.2;
   color: white;
   margin-bottom: 20px ;
-  /* animation-duration: 3s;
-  animation-name: glissement;
-  animation-iteration-count: 1; */
+  
 }
 
 .hero p {
@@ -150,30 +148,3 @@ a:hover {
   width: 60%;
 }
 
-/* 
-==========
-Animation
-==========
-*/
-/* @keyframes glissement {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
-/* @keyframes glissement_inverse {
-  from {
-    margin-right: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-} */
