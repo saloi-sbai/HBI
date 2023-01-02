@@ -55,7 +55,7 @@
           <?php
           //afficher le message d'erreur
           if (isset($_SESSION['error'])) { ?>
-            <p class="request_message" style="color:red">
+            <p style="color:red;text-align:center;padding:10px;">
               <?= $_SESSION['error'] ?>
             </p>
           <?php
@@ -65,7 +65,7 @@
           <?php
           //afficher le message de succes
           if (isset($_SESSION['succes_message'])) { ?>
-            <p class="request_message" style="color:green">
+            <p style="color:green;text-align:center;padding:10px;">
               <?= $_SESSION['succes_message'] ?>
             </p>
           <?php
@@ -74,10 +74,10 @@
           ?>
           <form action="./contact.php" method="post">
             <div class="form-group">
-              <input type="text" class="form-control" name="nom" id="name" placeholder="Nom" required />
+              <input type="text" class="form-control" name="nom" id="name" placeholder="Nom" />
               <br />
-              <input type="email" class="form-control" name="email" id="email" placeholder="email" required />
-              <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="message" required></textarea>
+              <input type="email" class="form-control" name="email" id="email" placeholder="email" />
+              <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
             </div>
             <button name="envoyer" type="submit" class="submit-btn">
               Envoyer
